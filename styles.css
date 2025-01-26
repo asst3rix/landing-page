@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+@font-face {
+    font-family: 'Kindred';
+    src: url(./fonts/kingred.otf);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -23,12 +28,13 @@
 
 .menu h3 {
     font-size: 30px;
+    font-family: 'Kindred';
 }
 
 .push-right {
     display: flex;
-    gap: 20px;
-    font-size: 18px;
+    gap: 40px;
+    font-size: 20px;
 }
 
 .presentation {
